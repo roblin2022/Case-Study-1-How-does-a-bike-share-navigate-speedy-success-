@@ -1,0 +1,98 @@
+Introduction
+This is a capstone project as a part of my Google Data Analytics Professional Certificate course. For the analysis I will be using R programming language and RStudio IDE for it's easy statistical analysis tools and data visualizations.
+
+For this project following data analysis steps will be followed :
+
+Ask
+Prepare
+Process
+Analyze
+Share
+Act
+Following Case Study Roadmap will be followed on each data analysis process
+
+Code, when needed on the step.
+Key tasks, as a checklist.
+Deliverable, as a checklist.
+
+Scenario
+You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+Ask
+Three questions will guide the future marketing program:
+
+How do annual members and casual riders use Cyclistic bikes differently?
+Why would casual riders buy Cyclistic annual memberships?
+How can Cyclistic use digital media to influence casual riders to become members?
+The director of marketing and your manager Lily Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
+
+Key tasks
+[x] Identify the business task
+
+The main objective is to build the best marketing strategies to turn casual bike riders into annual members by analyzing how the 'Casual' and 'Annual' customers use Cyclistic bike share differently.
+[x] Consider key stakeholders
+
+Cyclistic executive team, Director of Marketing (Lily Moreno), Marketing Analytics team.
+Deliverable
+[x] A clear statement of the business task
+
+Find the differences between casual and member riders.
+
+Introduction
+This is a capstone project as a part of my Google Data Analytics Professional Certificate course. For the analysis I will be using R programming language and RStudio IDE for it's easy statistical analysis tools and data visualizations.
+
+For this project following data analysis steps will be followed :
+
+Ask
+Prepare
+Process
+Analyze
+Share
+Act
+Following Case Study Roadmap will be followed on each data analysis process
+
+Code, when needed on the step.
+Key tasks, as a checklist.
+Deliverable, as a checklist.
+Scenario
+You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+Ask
+Three questions will guide the future marketing program:
+
+How do annual members and casual riders use Cyclistic bikes differently?
+Why would casual riders buy Cyclistic annual memberships?
+How can Cyclistic use digital media to influence casual riders to become members?
+The director of marketing and your manager Lily Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
+
+Key tasks
+[x] Identify the business task
+
+The main objective is to build the best marketing strategies to turn casual bike riders into annual members by analyzing how the 'Casual' and 'Annual' customers use Cyclistic bike share differently.
+[x] Consider key stakeholders
+
+Cyclistic executive team, Director of Marketing (Lily Moreno), Marketing Analytics team.
+Deliverable
+[x] A clear statement of the business task
+
+Find the differences between casual and member riders.
+Prepare¶
+I will use Cyclistic’s historical trip data to analyze and identify trends. The data has been made available by Motivate International Inc. under this license. Datasets are avilable here.
+
+Key tasks
+[x] Download data and store it appropriately.
+
+Data has been downloaded from here and copies have been stored securely on my computer and here on Kaggle.
+[x] Identify how it’s organized.
+
+All trip data is in comma-delimited (.CSV) format. Column names "ride_id", "rideable_type", "started_at", "ended_at", "start_station_name", "start_station_id", "end_station_name", "end_station_id", "start_lat", "start_lng", "end_lat", "end_lng", "member_casual" (Total 13 column)
+[x] Sort and filter the data.
+
+For this analysis I'm going to use last 12 months data of the year 2021, as it's the more current period to the business task.
+[x] Determine the credibility of the data.
+
+For the purposes of this case study, the datasets are appropriate and it will enable me to answer the business questions. But due data-privacy I cannot use rider's personally identification information, and this will prevent me from determining if a single user/rider taken several rides. All ride ids are unique in this data-set.
+Deliverable
+[x] A description of all data sources used
+
+Main source of data provided by the Cylistic company.
